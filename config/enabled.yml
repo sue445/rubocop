@@ -2,7 +2,7 @@
 
 Style/AccessModifierIndentation:
   Description: Check indentation of private/protected visibility modifiers.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#indent-public-private-protected'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#indent-public-private-protected'
   Enabled: true
 
 Style/AccessorMethodName:
@@ -11,14 +11,14 @@ Style/AccessorMethodName:
 
 Style/Alias:
   Description: 'Use alias_method instead of alias.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#alias-method'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#alias-method'
   Enabled: true
 
 Style/AlignArray:
   Description: >-
                  Align the elements of an array literal if they span more than
                  one line.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#align-multiline-arrays'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#align-multiline-arrays'
   Enabled: true
 
 Style/AlignHash:
@@ -31,47 +31,47 @@ Style/AlignParameters:
   Description: >-
                  Align the parameters of a method call if they span more
                  than one line.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-double-indent'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-double-indent'
   Enabled: true
 
 Style/AndOr:
   Description: 'Use &&/|| instead of and/or.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-and-or-or'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-and-or-or'
   Enabled: true
 
 Style/ArrayJoin:
   Description: 'Use Array#join instead of Array#*.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#array-join'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#array-join'
   Enabled: true
 
 Style/AsciiComments:
   Description: 'Use only ascii symbols in comments.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#english-comments'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#english-comments'
   Enabled: true
 
 Style/AsciiIdentifiers:
   Description: 'Use only ascii symbols in identifiers.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#english-identifiers'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#english-identifiers'
   Enabled: true
 
 Style/Attr:
   Description: 'Checks for uses of Module#attr.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#attr'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#attr'
   Enabled: true
 
 Style/BeginBlock:
   Description: 'Avoid the use of BEGIN blocks.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-BEGIN-blocks'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-BEGIN-blocks'
   Enabled: true
 
 Style/BarePercentLiterals:
   Description: 'Checks if usage of %() or %Q() matches configuration.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-q-shorthand'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#percent-q-shorthand'
   Enabled: true
 
 Style/BlockComments:
   Description: 'Do not use block comments.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-block-comments'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-block-comments'
   Enabled: true
 
 Style/BlockEndNewline:
@@ -83,7 +83,7 @@ Style/Blocks:
                 Avoid using {...} for multi-line blocks (multiline chaining is
                 always ugly).
                 Prefer {...} over do...end for single-line blocks.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#single-line-blocks'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#single-line-blocks'
   Enabled: true
 
 Style/BracesAroundHashParameters:
@@ -92,22 +92,22 @@ Style/BracesAroundHashParameters:
 
 Style/CaseEquality:
   Description: 'Avoid explicit use of the case equality operator(===).'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-case-equality'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-case-equality'
   Enabled: true
 
 Style/CaseIndentation:
   Description: 'Indentation of when in a case/when/[else/]end.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#indent-when-to-case'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#indent-when-to-case'
   Enabled: true
 
 Style/CharacterLiteral:
   Description: 'Checks for uses of character literals.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-character-literals'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-character-literals'
   Enabled: true
 
 Style/ClassAndModuleCamelCase:
   Description: 'Use CamelCase for classes and modules.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#camelcase-classes'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#camelcase-classes'
   Enabled: true
 
 Style/ClassAndModuleChildren:
@@ -120,22 +120,22 @@ Style/ClassCheck:
 
 Style/ClassMethods:
   Description: 'Use self when defining module/class methods.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#def-self-singletons'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#def-self-singletons'
   Enabled: true
 
 Style/ClassVars:
   Description: 'Avoid the use of class variables.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-class-vars'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-class-vars'
   Enabled: true
 
 Style/CollectionMethods:
   Description: 'Preferred collection methods.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#map-fine-select-reduce-size'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#map-fine-select-reduce-size'
   Enabled: true
 
 Style/ColonMethodCall:
   Description: 'Do not use :: for method call.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#double-colons'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#double-colons'
   Enabled: true
 
 Style/CommentAnnotation:
@@ -150,7 +150,7 @@ Style/CommentIndentation:
 
 Style/ConstantName:
   Description: 'Constants should use SCREAMING_SNAKE_CASE.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#screaming-snake-case'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#screaming-snake-case'
   Enabled: true
 
 Style/DefWithParentheses:
@@ -159,7 +159,7 @@ Style/DefWithParentheses:
 
 Style/DeprecatedHashMethods:
   Description: 'Checks for use of deprecated Hash methods.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#hash-key'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#hash-key'
   Enabled: true
 
 Style/Documentation:
@@ -168,12 +168,12 @@ Style/Documentation:
 
 Style/DotPosition:
   Description: 'Checks the position of the dot in multi-line method calls.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#consistent-multi-line-chains'
   Enabled: true
 
 Style/DoubleNegation:
   Description: 'Checks for uses of double negation (!!).'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-bang-bang'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-bang-bang'
   Enabled: true
 
 Style/EachWithObject:
@@ -182,7 +182,7 @@ Style/EachWithObject:
 
 Style/EmptyLineBetweenDefs:
   Description: 'Use empty lines between defs.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#empty-lines-between-methods'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#empty-lines-between-methods'
   Enabled: true
 
 Style/EmptyLines:
@@ -199,71 +199,71 @@ Style/EmptyLinesAroundBody:
 
 Style/EmptyLiteral:
   Description: 'Prefer literals to Array.new/Hash.new/String.new.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#literal-array-hash'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#literal-array-hash'
   Enabled: true
 
 Style/EndBlock:
   Description: 'Avoid the use of END blocks.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-END-blocks'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-END-blocks'
   Enabled: true
 
 Style/EndOfLine:
   Description: 'Use Unix-style line endings.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#crlf'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#crlf'
   Enabled: true
 
 Style/EvenOdd:
   Description: 'Favor the use of Fixnum#even? && Fixnum#odd?'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#predicate-methods'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#predicate-methods'
   Enabled: true
 
 Style/FileName:
   Description: 'Use snake_case for source file names.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#snake-case-files'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#snake-case-files'
   Enabled: true
 
 Style/FlipFlop:
   Description: 'Checks for flip flops'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-flip-flops'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-flip-flops'
   Enabled: true
 
 Style/For:
   Description: 'Checks use of for or each in multiline loops.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-for-loops'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-for-loops'
   Enabled: true
 
 Style/FormatString:
   Description: 'Enforce the use of Kernel#sprintf, Kernel#format or String#%.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#sprintf'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#sprintf'
   Enabled: true
 
 Style/GlobalVars:
   Description: 'Do not introduce global variables.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#instance-vars'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#instance-vars'
   Enabled: true
 
 Style/GuardClause:
   Description: 'Check for conditionals that can be replaced with guard clauses'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-nested-conditionals'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-nested-conditionals'
   Enabled: true
 
 Style/HashSyntax:
   Description: >-
                  Prefer Ruby 1.9 hash syntax { a: 1, b: 2 } over 1.8 syntax
                  { :a => 1, :b => 2 }.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#hash-literals'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#hash-literals'
   Enabled: true
 
 Style/IfUnlessModifier:
   Description: >-
                  Favor modifier if/unless usage when you have a
                  single-line body.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#if-as-a-modifier'
   Enabled: true
 
 Style/IfWithSemicolon:
   Description: 'Never use if x; .... Use the ternary operator instead.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-semicolon-ifs'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-semicolon-ifs'
   Enabled: true
 
 Style/IndentationConsistency:
@@ -272,7 +272,7 @@ Style/IndentationConsistency:
 
 Style/IndentationWidth:
   Description: 'Use 2 spaces for indentation.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-indentation'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-indentation'
   Enabled: true
 
 Style/IndentArray:
@@ -287,22 +287,22 @@ Style/IndentHash:
 
 Style/InfiniteLoop:
   Description: 'Use Kernel#loop for infinite loops.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#infinite-loop'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#infinite-loop'
   Enabled: true
 
 Style/Lambda:
   Description: 'Use the new lambda literal syntax for single-line blocks.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#lambda-multi-line'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#lambda-multi-line'
   Enabled: true
 
 Style/LambdaCall:
   Description: 'Use lambda.call(...) instead of lambda.(...).'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#proc-call'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#proc-call'
   Enabled: true
 
 Style/LeadingCommentSpace:
   Description: 'Comments should start with a space.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#hash-space'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#hash-space'
   Enabled: true
 
 Style/LineEndConcatenation:
@@ -313,24 +313,24 @@ Style/LineEndConcatenation:
 
 Style/MethodCallParentheses:
   Description: 'Do not use parentheses for method calls with no arguments.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-args-no-parens'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-args-no-parens'
   Enabled: true
 
 Style/MethodDefParentheses:
   Description: >-
                  Checks if the method definitions have or don't have
                  parentheses.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#method-parens'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#method-parens'
   Enabled: true
 
 Style/MethodName:
   Description: 'Use the configured style when naming methods.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#snake-case-symbols-methods-vars'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#snake-case-symbols-methods-vars'
   Enabled: true
 
 Style/ModuleFunction:
   Description: 'Checks for usage of `extend self` in modules.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#module-function'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#module-function'
   Enabled: true
 
 Style/MultilineBlockChain:
@@ -343,82 +343,82 @@ Style/MultilineBlockLayout:
 
 Style/MultilineIfThen:
   Description: 'Never use then for multi-line if/unless.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-then'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-then'
   Enabled: true
 
 Style/MultilineTernaryOperator:
   Description: >-
                  Avoid multi-line ?: (the ternary operator);
                  use if/unless instead.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-multiline-ternary'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-multiline-ternary'
   Enabled: true
 
 Style/NegatedIf:
   Description: >-
                  Favor unless over if for negative conditions
                  (or control flow or).
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#unless-for-negatives'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#unless-for-negatives'
   Enabled: true
 
 Style/NegatedWhile:
   Description: 'Favor until over while for negative conditions.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#until-for-negatives'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#until-for-negatives'
   Enabled: true
 
 Style/NestedTernaryOperator:
   Description: 'Use one expression per branch in a ternary operator.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-nested-ternary'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-nested-ternary'
   Enabled: true
 
 Style/Next:
   Description: 'Use `next` to skip iteration instead of a condition at the end.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-nested-conditionals'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-nested-conditionals'
   Enabled: true
 
 Style/NilComparison:
   Description: 'Prefer x.nil? to x == nil.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#predicate-methods'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#predicate-methods'
   Enabled: true
 
 Style/NonNilCheck:
   Description: 'Checks for redundant nil checks.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-non-nil-checks'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-non-nil-checks'
   Enabled: true
 
 Style/Not:
   Description: 'Use ! instead of not.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#bang-not-not'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#bang-not-not'
   Enabled: true
 
 Style/NumericLiterals:
   Description: >-
                  Add underscores to large numeric literals to improve their
                  readability.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#underscores-in-numerics'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#underscores-in-numerics'
   Enabled: true
 
 Style/OneLineConditional:
   Description: >-
                  Favor the ternary operator(?:) over
                  if/then/else/end constructs.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#ternary-operator'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#ternary-operator'
   Enabled: true
 
 Style/OpMethod:
   Description: 'When defining binary operators, name the argument other.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#other-arg'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#other-arg'
   Enabled: true
 
 Style/ParenthesesAroundCondition:
   Description: >-
                  Don't use parentheses around the condition of an
                  if/unless/while.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-parens-if'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-parens-if'
   Enabled: true
 
 Style/PercentLiteralDelimiters:
   Description: 'Use `%`-literal delimiters consistently'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-literal-braces'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#percent-literal-braces'
   Enabled: true
 
 Style/PercentQLiterals:
@@ -427,22 +427,22 @@ Style/PercentQLiterals:
 
 Style/PerlBackrefs:
   Description: 'Avoid Perl-style regex back references.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-perl-regexp-last-matchers'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-perl-regexp-last-matchers'
   Enabled: true
 
 Style/PredicateName:
   Description: 'Check the names of predicate methods.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#bool-methods-qmark'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#bool-methods-qmark'
   Enabled: true
 
 Style/Proc:
   Description: 'Use proc instead of Proc.new.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#proc'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#proc'
   Enabled: true
 
 Style/RaiseArgs:
   Description: 'Checks the arguments passed to raise/fail.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#exception-class-messages'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#exception-class-messages'
   Enabled: true
 
 Style/RedundantBegin:
@@ -451,17 +451,17 @@ Style/RedundantBegin:
 
 Style/RedundantException:
   Description: "Checks for an obsolete RuntimeException argument in raise/fail."
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-explicit-runtimeerror'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-explicit-runtimeerror'
   Enabled: true
 
 Style/RedundantReturn:
   Description: "Don't use return where it's not required."
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-explicit-return'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-explicit-return'
   Enabled: true
 
 Style/RedundantSelf:
   Description: "Don't use self where it's not needed."
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-self-unless-required'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-self-unless-required'
   Enabled: true
 
 Style/RegexpLiteral:
@@ -470,39 +470,39 @@ Style/RegexpLiteral:
                  `MaxSlashes` '/' characters.
                  Use %r only for regular expressions matching more than
                  `MaxSlashes` '/' character.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-r'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#percent-r'
   Enabled: true
 
 Style/RescueModifier:
   Description: 'Avoid using rescue in its modifier form.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-rescue-modifiers'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-rescue-modifiers'
   Enabled: true
 
 Style/SelfAssignment:
   Description: >-
                  Checks for places where self-assignment shorthand should have
                  been used.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#self-assignment'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#self-assignment'
   Enabled: true
 
 Style/Semicolon:
   Description: "Don't use semicolons to terminate expressions."
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-semicolon'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-semicolon'
   Enabled: true
 
 Style/SignalException:
   Description: 'Checks for proper usage of fail and raise.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#fail-method'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#fail-method'
   Enabled: true
 
 Style/SingleLineBlockParams:
   Description: 'Enforces the names of some block params.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#reduce-blocks'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#reduce-blocks'
   Enabled: true
 
 Style/SingleLineMethods:
   Description: 'Avoid single-line methods.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-single-line-methods'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-single-line-methods'
   Enabled: true
 
 Style/SingleSpaceBeforeFirstArg:
@@ -513,12 +513,12 @@ Style/SingleSpaceBeforeFirstArg:
 
 Style/SpaceAfterColon:
   Description: 'Use spaces after colons.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-operators'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-operators'
   Enabled: true
 
 Style/SpaceAfterComma:
   Description: 'Use spaces after commas.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-operators'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-operators'
   Enabled: true
 
 Style/SpaceAfterControlKeyword:
@@ -529,17 +529,17 @@ Style/SpaceAfterMethodName:
   Description: >-
                  Never put a space between a method name and the opening
                  parenthesis in a method definition.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#parens-no-spaces'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#parens-no-spaces'
   Enabled: true
 
 Style/SpaceAfterNot:
   Description: Tracks redundant space after the ! operator.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-space-bang'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-space-bang'
   Enabled: true
 
 Style/SpaceAfterSemicolon:
   Description: 'Use spaces after semicolons.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-operators'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-operators'
   Enabled: true
 
 Style/SpaceBeforeBlockBraces:
@@ -574,12 +574,12 @@ Style/SpaceAroundEqualsInParameterDefault:
                  Checks that the equals signs in parameter default assignments
                  have or don't have surrounding space depending on
                  configuration.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-around-equals'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-around-equals'
   Enabled: true
 
 Style/SpaceAroundOperators:
   Description: 'Use spaces around operators.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-operators'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-operators'
   Enabled: true
 
 Style/SpaceBeforeModifierKeyword:
@@ -588,32 +588,32 @@ Style/SpaceBeforeModifierKeyword:
 
 Style/SpaceInsideBrackets:
   Description: 'No spaces after [ or before ].'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-spaces-braces'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-spaces-braces'
   Enabled: true
 
 Style/SpaceInsideHashLiteralBraces:
   Description: "Use spaces inside hash literal braces - or don't."
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-operators'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-operators'
   Enabled: true
 
 Style/SpaceInsideParens:
   Description: 'No spaces after ( or before ).'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-spaces-braces'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-spaces-braces'
   Enabled: true
 
 Style/SpaceInsideRangeLiteral:
   Description: 'No spaces inside range literals.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-space-inside-range-literals'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-space-inside-range-literals'
   Enabled: true
 
 Style/SpecialGlobalVars:
   Description: 'Avoid Perl-style global variables.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-cryptic-perlisms'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-cryptic-perlisms'
   Enabled: true
 
 Style/StringLiterals:
   Description: 'Checks if uses of quotes match the configured preference.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#consistent-string-literals'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#consistent-string-literals'
   Enabled: true
 
 Style/SymbolProc:
@@ -622,34 +622,34 @@ Style/SymbolProc:
 
 Style/Tab:
   Description: 'No hard tabs.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#spaces-indentation'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#spaces-indentation'
   Enabled: true
 
 Style/TrailingBlankLines:
   Description: 'Checks trailing blank lines and final newline.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#newline-eof'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#newline-eof'
   Enabled: true
 
 Style/TrailingComma:
   Description: 'Checks for trailing comma in parameter lists and literals.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-trailing-array-commas'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-trailing-array-commas'
   Enabled: true
 
 Style/TrailingWhitespace:
   Description: 'Avoid trailing whitespace.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-trailing-whitespace'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-trailing-whitespace'
   Enabled: true
 
 Style/TrivialAccessors:
   Description: 'Prefer attr_* methods to trivial readers/writers.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#attr_family'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#attr_family'
   Enabled: true
 
 Style/UnlessElse:
   Description: >-
                  Never use unless with else. Rewrite these with the positive
                  case first.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-else-with-unless'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-else-with-unless'
   Enabled: true
 
 Style/UnneededCapitalW:
@@ -658,53 +658,53 @@ Style/UnneededCapitalW:
 
 Style/UnneededPercentQ:
   Description: 'Checks for %q/%Q when single quotes or double quotes would do.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-q'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#percent-q'
   Enabled: true
 
 Style/UnneededPercentX:
   Description: 'Checks for %x when `` would do.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-x'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#percent-x'
   Enabled: true
 
 Style/VariableInterpolation:
   Description: >-
                  Don't interpolate global, instance and class variables
                  directly in strings.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#curlies-interpolate'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#curlies-interpolate'
   Enabled: true
 
 Style/VariableName:
   Description: 'Use the configured style when naming variables.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#snake-case-symbols-methods-vars'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#snake-case-symbols-methods-vars'
   Enabled: true
 
 Style/WhenThen:
   Description: 'Use when x then ... for one-line cases.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#one-line-cases'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#one-line-cases'
   Enabled: true
 
 Style/WhileUntilDo:
   Description: 'Checks for redundant do after while or until.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-multiline-while-do'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-multiline-while-do'
   Enabled: true
 
 Style/WhileUntilModifier:
   Description: >-
                  Favor modifier while/until usage when you have a
                  single-line body.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#while-as-a-modifier'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#while-as-a-modifier'
   Enabled: true
 
 Style/WordArray:
   Description: 'Use %w or %W for arrays of words.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-w'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#percent-w'
   Enabled: true
 
 #################### Metrics ################################
 
 Metrics/BlockNesting:
   Description: 'Avoid excessive block nesting'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#three-is-the-number-thou-shalt-count'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#three-is-the-number-thou-shalt-count'
   Enabled: true
 
 Metrics/ClassLength:
@@ -719,17 +719,17 @@ Metrics/CyclomaticComplexity:
 
 Metrics/LineLength:
   Description: 'Limit lines to 80 characters.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#80-character-limits'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#80-character-limits'
   Enabled: true
 
 Metrics/MethodLength:
   Description: 'Avoid methods longer than 10 lines of code.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#short-methods'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#short-methods'
   Enabled: true
 
 Metrics/ParameterLists:
   Description: 'Avoid parameter lists longer than three or four parameters.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#too-many-params'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#too-many-params'
   Enabled: true
 
 Metrics/PerceivedComplexity:
@@ -745,7 +745,7 @@ Lint/AmbiguousOperator:
   Description: >-
                  Checks for ambiguous operators in the first argument of a
                  method invocation without parentheses.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#parens-as-args'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#parens-as-args'
   Enabled: true
 
 Lint/AmbiguousRegexpLiteral:
@@ -756,7 +756,7 @@ Lint/AmbiguousRegexpLiteral:
 
 Lint/AssignmentInCondition:
   Description: "Don't use assignment in conditions."
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#safe-assignment-in-condition'
   Enabled: true
 
 Lint/BlockAlignment:
@@ -767,7 +767,7 @@ Lint/ConditionPosition:
   Description: >-
                  Checks for condition placed in a confusing position relative to
                  the keyword.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#same-line-condition'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#same-line-condition'
   Enabled: true
 
 Lint/Debugger:
@@ -804,7 +804,7 @@ Lint/EndInMethod:
 
 Lint/EnsureReturn:
   Description: 'Never use return in an ensure block.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-return-ensure'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-return-ensure'
   Enabled: true
 
 Lint/Eval:
@@ -813,7 +813,7 @@ Lint/Eval:
 
 Lint/HandleExceptions:
   Description: "Don't suppress exception."
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#dont-hide-exceptions'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#dont-hide-exceptions'
   Enabled: true
 
 Lint/InvalidCharacterLiteral:
@@ -834,14 +834,14 @@ Lint/Loop:
   Description: >-
                  Use Kernel#loop with break rather than begin/end/until or
                  begin/end/while for post-loop tests.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#loop-with-break'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#loop-with-break'
   Enabled: true
 
 Lint/ParenthesesAsGroupedExpression:
   Description: >-
                  Checks for method calls with a space before the opening
                  parenthesis.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#parens-no-spaces'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#parens-no-spaces'
   Enabled: true
 
 Lint/RequireParentheses:
@@ -852,7 +852,7 @@ Lint/RequireParentheses:
 
 Lint/RescueException:
   Description: 'Avoid rescuing the Exception class.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-blind-rescues'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-blind-rescues'
   Enabled: true
 
 Lint/ShadowingOuterLocalVariable:
@@ -869,7 +869,7 @@ Lint/SpaceBeforeFirstArg:
 
 Lint/StringConversionInInterpolation:
   Description: 'Checks for Object#to_s usage in string interpolation.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-to-s'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#no-to-s'
   Enabled: true
 
 Lint/UnderscorePrefixedVariableName:
@@ -878,12 +878,12 @@ Lint/UnderscorePrefixedVariableName:
 
 Lint/UnusedBlockArgument:
   Description: 'Checks for unused block arguments.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#underscore-unused-vars'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#underscore-unused-vars'
   Enabled: true
 
 Lint/UnusedMethodArgument:
   Description: 'Checks for unused method arguments.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#underscore-unused-vars'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#underscore-unused-vars'
   Enabled: true
 
 Lint/UnreachableCode:
@@ -896,7 +896,7 @@ Lint/UselessAccessModifier:
 
 Lint/UselessAssignment:
   Description: 'Checks for useless assignment to a local variable.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#underscore-unused-vars'
+  StyleGuide: 'https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md#underscore-unused-vars'
   Enabled: true
 
 Lint/UselessComparison:
